@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/next';
 import { locales, type Locale } from '@/lib/i18n';
 import { getContent } from '@/lib/content';
 
@@ -55,6 +56,7 @@ export default async function LocaleLayout({
             <a href="mailto:adonis@brozoza.com">adonis@brozoza.com</a>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
