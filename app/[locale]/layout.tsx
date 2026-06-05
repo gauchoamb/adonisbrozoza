@@ -52,7 +52,6 @@ export default async function LocaleLayout({
 
           <footer className="footer">
             <span>© {new Date().getFullYear()}</span>
-            <a href="mailto:adonis@brozoza.com">adonis@brozoza.com</a>
           </footer>
         </div>
       </body>
