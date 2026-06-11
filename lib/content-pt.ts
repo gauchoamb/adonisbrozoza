@@ -25,7 +25,7 @@ export const pt = {
       lang: 'Inglês',
       url: 'https://www.ifc.org/en/insights-reports/2026/optimizing-aml-cft-risk-management-with-technology-and-analytics',
       meta: 'IFC, 2026',
-      note: 'Membro da equipe líder de produção',
+      note: 'Co-Líder de Produção',
     },
     {
       title: 'O que pode nos ensinar uma decisão americana sobre IA, sigilo e prova?',
