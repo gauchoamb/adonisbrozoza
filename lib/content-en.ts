@@ -21,6 +21,13 @@ export const en = {
   },
   publications: [
     {
+      title: 'Optimizing AML/CFT Risk Management with Technology and Analytics',
+      lang: 'English',
+      url: 'https://www.ifc.org/en/insights-reports/2026/optimizing-aml-cft-risk-management-with-technology-and-analytics',
+      meta: 'IFC, 2026',
+      note: 'Member of production leading team',
+    },
+    {
       title: 'What Can a U.S. Decision on AI, Privilege, and Evidence Teach Us?',
       lang: 'Portuguese',
       url: 'https://www.conjur.com.br/2026-mar-23/o-que-pode-nos-ensinar-uma-decisao-americana-sobre-inteligencia-artificial-sigilo-e-prova/',

@@ -47,6 +47,9 @@ export default function HomePage({
                 ) : (
                   <span className="entry-title">{pub.title}</span>
                 )}{' '}
+                {'note' in pub && (
+                  <span className="entry-lang">*{pub.note}</span>
+                )}{' '}
                 <span className="entry-lang">({pub.lang})</span>
               </div>
               <span className="entry-meta">{pub.meta}</span>
