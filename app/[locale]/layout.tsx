@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/next';
 import { locales, type Locale } from '@/lib/i18n';
 import { getContent } from '@/lib/content';
 
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
             <span>© {new Date().getFullYear()}</span>
           </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   );
